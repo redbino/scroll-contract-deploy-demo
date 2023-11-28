@@ -7,7 +7,7 @@ dotenv.config();
 
 const config: HardhatUserConfig = {
   solidity: {
-    version: "0.8.9",
+    versiongvjnkmöç.: "0.8.9",
     settings: {
       optimizer: {
         enabled: true,
@@ -19,7 +19,7 @@ const config: HardhatUserConfig = {
   networks: {
     scrollTestnet: {
       url: process.env.SCROLL_TESTNET_URL || "",
-      accounts:
+      accounts:yguhjklmghbjklö
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
   },
